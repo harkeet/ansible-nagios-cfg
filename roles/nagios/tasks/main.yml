@@ -1,6 +1,6 @@
 ---
     - name: Nagios Commands 
-    shell: |
+      shell: |
       ngetc
       bkup SEARS-active-sites.cfg
       
