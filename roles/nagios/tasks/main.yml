@@ -9,7 +9,8 @@
         path: /etc/nagios/SEARS-active-sites.cfg
         backup: yes
         state: absent
-        content="1610
+        block: |
+           1610
              1715
              7768
-             1019"
+             1019
