@@ -1,8 +1,8 @@
 ---
     - name: Nagios Commands 
       shell: |
-      ngetc
-      bkup SEARS-active-sites.cfg
+          ngetc;
+          bkup SEARS-active-sites.cfg;
       
     - name: remove HTML as well as surrounding markers
       blockinfile:
